@@ -1,3 +1,4 @@
+require 'pry'
 def using_push(array, string)
   
   array.push(string)
@@ -44,5 +45,6 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
+  binding.pry
   array.delete
 end
